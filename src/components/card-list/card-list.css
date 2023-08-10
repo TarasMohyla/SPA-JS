@@ -1,0 +1,21 @@
+.card_list {
+    color: #121212;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card_list__loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #121212;
+    padding: 30px;
+}
